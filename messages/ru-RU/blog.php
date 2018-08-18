@@ -1,0 +1,101 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: funson
+ * Date: 2014/10/25
+ * Time: 10:33
+ */
+
+return [
+    'STATUS_ACTIVE' => 'Активный',
+    'STATUS_INACTIVE' => 'Неактивный',
+    'STATUS_DELETED' => 'Удаленный',
+    'YES' => 'Да',
+    'NO' => 'Нет',
+    'SEX_MALE' => 'Мужской',
+    'SEX_FEMALE' => 'Женский',
+    'MAINTAIN_STATUS_FIRST' => '首次保养',
+    'MAINTAIN_STATUS_REGULAR' => '定期保养',
+    'PROMPT_STATUS' => 'Выберите',
+    'Please Filter' => 'Выберите',
+    'Please Select' => '请选择',
+    'No Option' => '无',
+
+    'Create' => 'Создать',
+    'Update' => 'Изменить',
+    'View' => 'Просмотр',
+    'Delete' => 'Удалить',
+    'Are you sure you want to delete this item?' => 'Вы уверены, что хотите удалить этот элемент？',
+    'Login' => 'Войти',
+    'Incorrect username or password.' => 'Неправильный логин или пароль',
+    'Home' => 'Главная',
+    'Logout' => 'Выйти',
+    'Online' => 'Онлайн',
+    'Dashboard' => 'Рабочий стол',
+    'The file "{file}" is not an image.' => 'Файл "{file}" не является изображением',
+    'Hello, {name}' => 'Привет, {name}',
+
+    'Blog Catalogs' => 'Разделы блога',
+    'Blog Catalog' => 'Раздел блога',
+    'Blog Post' => 'Пост',
+    'Blog Posts' => 'Посты',
+    'Blog Comment' => 'Комментарий',
+    'Blog Comments' => 'Комментарии',
+    'Blog Tag' => 'Тэг',
+    'Blog Tags' => 'Тэги',
+
+    'System' => '系统',
+    'User' => '用户',
+    'Users' => '用户',
+    'Role' => '角色',
+    'Roles' => '角色',
+    'Auth Role' => '角色',
+    'Auth Roles' => '角色',
+    'Name' => '名称',
+    'Description' => '描述',
+    'Permissions' => '权限',
+    'successfully saved' => '创建成功',
+    'The Administrator has all permissions' => '该管理员拥有所有权限',
+    'successfully updated' => 'успешно обновлен',
+    'successfully removed' => 'успешно удален',
+    'still used' => '还在使用',
+
+    'Root Catalog' => 'Корневой раздел',
+    'Parent ID' => 'ID родителя',
+    'Title' => 'Заголовок',
+    'Surname' => '优化名称',
+    'Banner' => 'Banner图片',
+    'Is Nav' => '导航是否显示',
+    'Sort Order' => '排序',
+    'Page Size' => 'Размер страницы',
+    'Template' => 'Шаблон',
+    'Redirect Url' => '外部链接',
+    'Status' => 'Статус',
+    'Create Time' => 'Дата создания',
+    'Update Time' => 'Дата изменения',
+    'Created At' => 'Создано',
+    'Updated At' => 'Обновлено',
+
+    'Catalog ID' => 'ID раздела',
+    'Add Sub Catalog' => 'Добавить подраздел',
+    'User Id' => 'ID пользователя',
+    'Brief' => 'Анонс',
+    'Content' => 'Контент',
+    'Tags' => 'Тэги',
+    'Click' => '点击数',
+    'Comments Count' => 'Количество комментариев',
+
+    'Post ID' => 'ID поста',
+    'Author' => 'Автор',
+    'Email' => 'E-mail',
+    'Url' => 'Url',
+
+    'Frequency' => '次数',
+
+    'Directly Input Time' => '可直接输入日期，格式：2015-01-01',
+    'Unit comments' => '条评论',
+    'Write comments' => 'Написать комментарий',
+    'Add comments' => 'Добавить комментарий',
+    'Actions' => 'Действия',
+];
+
