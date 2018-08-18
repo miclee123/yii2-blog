@@ -5,7 +5,7 @@ use yii\db\Schema;
 
 /**
  * CLass m141208_201480_blog_init
- * @package funson86\blog\migrations
+ * @package miclee123\blog\migrations
  *
  * Create blog tables.
  *

@@ -1,11 +1,11 @@
 <?php
 
-namespace funson86\blog;
+namespace miclee123\blog;
 use Yii;
 
 class Module extends \yii\base\Module
 {
-    public $controllerNamespace = 'funson86\blog\controllers\frontend';
+    public $controllerNamespace = 'miclee123\blog\controllers\frontend';
 
     protected $_isBackend;
 
@@ -14,13 +14,13 @@ class Module extends \yii\base\Module
         parent::init();
 
         if ($this->getIsBackend() === true) {
-            $this->setViewPath('@funson86/blog/views/backend');
+            $this->setViewPath('@miclee123/blog/views/backend');
         } elseif (isset(Yii::$app->params['blogTheme'])) {
             $this->setViewPath('@frontend/themes/blog');
             $this->setLayoutPath('@frontend/themes/blog/layouts');
         } else {
-            $this->setViewPath('@funson86/blog/views/frontend');
-            $this->setLayoutPath('@funson86/blog/views/frontend/layouts');
+            $this->setViewPath('@miclee123/blog/views/frontend');
+            $this->setLayoutPath('@miclee123/blog/views/frontend/layouts');
         }
     }
 
@@ -52,7 +52,7 @@ class Module extends \yii\base\Module
      */
     public static function t($category, $message, $params = [], $language = null)
     {
-        return Yii::t('funson86/' . $category, $message, $params, $language);
+        return Yii::t('miclee123/' . $category, $message, $params, $language);
     }
 
     /**

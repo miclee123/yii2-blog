@@ -1,11 +1,11 @@
 <?php
 
-namespace funson86\blog\models;
+namespace miclee123\blog\models;
 
 use Yii;
 use yii\behaviors\TimestampBehavior;
 use yii\db\Expression;
-use funson86\blog\Module;
+use miclee123\blog\Module;
 use yii\helpers\Html;
 
 /**

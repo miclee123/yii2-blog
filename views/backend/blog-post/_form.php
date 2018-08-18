@@ -1,10 +1,10 @@
 <?php
 
 use yii\helpers\Html;
-use funson86\blog\Module;
+use miclee123\blog\Module;
 use yii\widgets\ActiveForm;
 use yii\helpers\ArrayHelper;
-use funson86\blog\models\BlogCatalog;
+use miclee123\blog\models\BlogCatalog;
 use kartik\markdown\MarkdownEditor;
 use mihaildev\ckeditor\CKEditor;
 
@@ -44,7 +44,7 @@ use mihaildev\ckeditor\CKEditor;
 
     <?= $form->field($model, 'click')->textInput() ?>
 
-    <?= $form->field($model, 'status')->dropDownList(\funson86\blog\models\Status::labels()) ?>
+    <?= $form->field($model, 'status')->dropDownList(\miclee123\blog\models\Status::labels()) ?>
 
     <div class="form-group">
         <label class="col-lg-2 control-label" for="">&nbsp;</label>

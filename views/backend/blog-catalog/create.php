@@ -1,10 +1,10 @@
 <?php
 
 use yii\helpers\Html;
-use funson86\blog\Module;
+use miclee123\blog\Module;
 
 /* @var $this yii\web\View */
-/* @var $model funson86\blog\models\BlogCatalog */
+/* @var $model miclee123\blog\models\BlogCatalog */
 
 $this->title = Module::t('blog', 'Create ') . Module::t('blog', 'Blog Catalog');
 $this->params['breadcrumbs'][] = ['label' => Module::t('blog', 'Blog Catalogs'), 'url' => ['index']];

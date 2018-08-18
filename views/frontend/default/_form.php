@@ -2,7 +2,7 @@
 use yii\helpers\Html;
 use yii\helpers\StringHelper;
 use yii\widgets\ActiveForm;
-use funson86\blog\Module;
+use miclee123\blog\Module;
 ?>
 
 <div class="form">

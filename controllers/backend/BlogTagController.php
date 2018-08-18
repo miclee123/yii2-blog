@@ -1,6 +1,6 @@
 <?php
 
-namespace funson86\blog\controllers\backend;
+namespace miclee123\blog\controllers\backend;
 
 use Yii;
 use funson86\blog\models\BlogTag;

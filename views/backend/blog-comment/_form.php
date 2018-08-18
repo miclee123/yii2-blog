@@ -1,9 +1,9 @@
 <?php
 
 use yii\helpers\Html;
-use funson86\blog\Module;
+use miclee123\blog\Module;
 use yii\widgets\ActiveForm;
-use funson86\blog\models\BlogPost;
+use miclee123\blog\models\BlogPost;
 use \yii\helpers\ArrayHelper;
 
 /* @var $this yii\web\View */
@@ -25,7 +25,7 @@ use \yii\helpers\ArrayHelper;
 
     <?= $form->field($model, 'url')->textInput(['maxlength' => 128]) ?>
 
-    <?= $form->field($model, 'status')->dropDownList(\funson86\blog\models\Status::labels()) ?>
+    <?= $form->field($model, 'status')->dropDownList(\miclee123\blog\models\Status::labels()) ?>
 
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? Module::t('blog', 'Create') : Module::t('blog', 'Update'), ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>

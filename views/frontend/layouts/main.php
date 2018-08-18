@@ -3,14 +3,14 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
-use funson86\blog\assets\AppAsset;
-use funson86\blog\widgets\Alert;
-use funson86\blog\widgets\Search;
-use funson86\blog\widgets\TagCloud;
-use funson86\blog\widgets\Links;
-use funson86\blog\widgets\RecentComments;
-use funson86\blog\widgets\SiteStat;
-use funson86\blog\widgets\RecentPosts;
+use miclee123\blog\assets\AppAsset;
+use miclee123\blog\widgets\Alert;
+use miclee123\blog\widgets\Search;
+use miclee123\blog\widgets\TagCloud;
+use miclee123\blog\widgets\Links;
+use miclee123\blog\widgets\RecentComments;
+use miclee123\blog\widgets\SiteStat;
+use miclee123\blog\widgets\RecentPosts;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
@@ -68,7 +68,7 @@ AppAsset::register($this);
                 'maxTags' => 5,
             ]) ?>
 
-            <?= \funson86\blog\widgets\RecentPosts::widget([
+            <?= \miclee123\blog\widgets\RecentPosts::widget([
                 'title' => '<i class="icon-st"></i>最新博文',
                 'maxPosts' => 5,
             ]) ?>

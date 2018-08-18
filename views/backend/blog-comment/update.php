@@ -1,7 +1,7 @@
 <?php
 
 use yii\helpers\Html;
-use funson86\blog\Module;
+use miclee123\blog\Module;
 
 /* @var $this yii\web\View */
 /* @var $model backend\modules\blog\models\BlogComment */

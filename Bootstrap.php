@@ -1,6 +1,6 @@
 <?php
 
-namespace funson86\blog;
+namespace miclee123\blog;
 
 use yii\base\BootstrapInterface;
 
@@ -24,13 +24,13 @@ class Bootstrap implements BootstrapInterface
         )*/;
 
         // Add module I18N category.
-        if (!isset($app->i18n->translations['funson86/blog']) && !isset($app->i18n->translations['funson86/*'])) {
-            $app->i18n->translations['funson86/blog'] = [
+        if (!isset($app->i18n->translations['miclee123/blog']) && !isset($app->i18n->translations['miclee123/*'])) {
+            $app->i18n->translations['miclee123/blog'] = [
                 'class' => 'yii\i18n\PhpMessageSource',
-                'basePath' => '@funson86/blog/messages',
+                'basePath' => '@miclee123/blog/messages',
                 'forceTranslation' => true,
                 'fileMap' => [
-                    'funson86/blog' => 'blog.php',
+                    'miclee123/blog' => 'blog.php',
                 ]
             ];
         }

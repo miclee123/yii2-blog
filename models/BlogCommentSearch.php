@@ -1,14 +1,14 @@
 <?php
 
-namespace funson86\blog\models;
+namespace miclee123\blog\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use funson86\blog\models\BlogComment;
+use miclee123\blog\models\BlogComment;
 
 /**
- * BlogCommentSearch represents the model behind the search form about `funson86\blog\models\BlogComment`.
+ * BlogCommentSearch represents the model behind the search form about `miclee123\blog\models\BlogComment`.
  */
 class BlogCommentSearch extends BlogComment
 {

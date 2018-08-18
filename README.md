@@ -1,6 +1,6 @@
 Yii2 Blog
 =========
-Yii2 Blog for other application, especially for [Yii2 Adminlte](https://github.com/funson86/yii2-adminlte)
+Yii2 Blog for other application, especially for [Yii2 Adminlte](https://github.com/miclee123/yii2-adminlte)
 
 Installation
 ------------
@@ -10,13 +10,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist funson86/yii2-blog "dev-master"
+php composer.phar require --prefer-dist miclee123/yii2-blog "dev-master"
 ```
 
 or add
 
 ```
-"funson86/yii2-blog": "*"
+"miclee123/yii2-blog": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -28,7 +28,7 @@ to the require section of your `composer.json` file.
 Migration run
 
 ```php
-yii migrate --migrationPath=@funson86/blog/migrations
+yii migrate --migrationPath=@miclee123/blog/migrations
 ```
 
 ### Config url rewrite in /common/config/main.php
@@ -59,8 +59,8 @@ yii migrate --migrationPath=@funson86/blog/migrations
 ```php
     'modules' => [
         'blog' => [
-            'class' => 'funson86\blog\Module',
-            'controllerNamespace' => 'funson86\blog\controllers\backend'
+            'class' => 'miclee123\blog\Module',
+            'controllerNamespace' => 'miclee123\blog\controllers\backend'
         ],
     ],
 ```
@@ -71,8 +71,8 @@ yii migrate --migrationPath=@funson86/blog/migrations
     'defaultRoute' => 'blog', //set blog as default route
     'modules' => [
         'blog' => [
-            'class' => 'funson86\blog\Module',
-            'controllerNamespace' => 'funson86\blog\controllers\frontend'
+            'class' => 'miclee123\blog\Module',
+            'controllerNamespace' => 'miclee123\blog\controllers\frontend'
         ],
     ],
 ```
@@ -86,7 +86,7 @@ return [
     'blogPostPageCount' => '10',
     'blogLinks' => [
         'Google' => 'http://www.google.com',
-        'Funson86 Blog' => 'http://github.com/funson86/yii2-blog',
+        'miclee123 Blog' => 'http://github.com/miclee123/yii2-blog',
     ],
     'blogUploadPath' => 'upload/', //default to frontend/web/upload
 ];

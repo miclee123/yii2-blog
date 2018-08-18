@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace funson86\blog\assets;
+namespace miclee123\blog\assets;
 
 use Yii;
 use yii\web\AssetBundle;
@@ -16,7 +16,7 @@ use yii\web\AssetBundle;
  */
 class AppAsset extends AssetBundle
 {
-    public $sourcePath = '@funson86/blog/assets/default';
+    public $sourcePath = '@miclee123/blog/assets/default';
     public $baseUrl = '@web';
     public $css = [
         'css/screen.css',

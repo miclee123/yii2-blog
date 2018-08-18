@@ -6,9 +6,9 @@
  * Time: 9:50
  */
 
-namespace funson86\blog\models;
+namespace miclee123\blog\models;
 
-use funson86\blog\Module;
+use miclee123\blog\Module;
 
 class Status
 {

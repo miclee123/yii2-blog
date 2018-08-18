@@ -1,7 +1,7 @@
 <?php
 
 use yii\helpers\Html;
-use funson86\blog\Module;
+use miclee123\blog\Module;
 use yii\grid\GridView;
 use yii\helpers\ArrayHelper;
 

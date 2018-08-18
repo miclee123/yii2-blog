@@ -1,7 +1,7 @@
 <?php
-namespace funson86\blog\widgets;
+namespace miclee123\blog\widgets;
 
-use funson86\blog\models\BlogComment;
+use miclee123\blog\models\BlogComment;
 use yii\base\Widget;
 use yii\helpers\Html;
 

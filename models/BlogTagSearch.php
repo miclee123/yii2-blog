@@ -1,14 +1,14 @@
 <?php
 
-namespace funson86\blog\models;
+namespace miclee123\blog\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use funson86\blog\models\BlogTag;
+use miclee123\blog\models\BlogTag;
 
 /**
- * BlogTagSearch represents the model behind the search form about `funson86\blog\models\BlogTag`.
+ * BlogTagSearch represents the model behind the search form about `miclee123\blog\models\BlogTag`.
  */
 class BlogTagSearch extends BlogTag
 {

@@ -1,8 +1,8 @@
 <?php
-namespace funson86\blog\widgets;
+namespace miclee123\blog\widgets;
 
-use funson86\blog\models\BlogPost;
-use funson86\blog\models\Status;
+use miclee123\blog\models\BlogPost;
+use miclee123\blog\models\Status;
 use yii\base\Widget;
 use yii\helpers\Html;
 

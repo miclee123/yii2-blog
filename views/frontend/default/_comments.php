@@ -9,7 +9,7 @@ use yii\helpers\StringHelper;
         <div class="author">
             <?= Html::a("#{$comment->id}", $comment->getUrl($post), [
                 'class' => 'cid',
-                'title' => \funson86\blog\Module::t('blog', 'Permalink to this comment'),
+                'title' => \miclee123\blog\Module::t('blog', 'Permalink to this comment'),
             ]); ?>
             <?= $comment->authorLink; ?>&nbsp;<span><?= Yii::$app->formatter->asDate($comment->created_at); ?>
         </div>

@@ -1,10 +1,10 @@
 <?php
 
 use yii\helpers\Html;
-use funson86\blog\Module;
+use miclee123\blog\Module;
 use yii\grid\GridView;
 use yii\helpers\ArrayHelper;
-use funson86\blog\models\Status;
+use miclee123\blog\models\Status;
 
 /* @var $this yii\web\View */
 /* @var $searchModel backend\modules\blog\models\BlogCommentSearch */
@@ -35,7 +35,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 /*'filter' => Html::activeDropDownList(
                     $searchModel,
                     'post_id',
-                    \funson86\blog\models\BlogPost::getArrayCatalog(),
+                    \miclee123\blog\models\BlogPost::getArrayCatalog(),
                     ['class' => 'form-control', 'prompt' => Module::t('blog', 'Please Filter')]
                 )*/
             ],
