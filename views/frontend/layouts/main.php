@@ -64,27 +64,27 @@ AppAsset::register($this);
         <div id="sidebar">
 
             <?= TagCloud::widget([
-                'title' => '<i class="icon-st"></i>标签云',
+                'title' => '<i class="icon-st"></i>Облако тэгов',
                 'maxTags' => 5,
             ]) ?>
 
             <?= \miclee123\blog\widgets\RecentPosts::widget([
-                'title' => '<i class="icon-st"></i>最新博文',
+                'title' => '<i class="icon-st"></i>Последние посты',
                 'maxPosts' => 5,
             ]) ?>
 
             <?= RecentComments::widget([
-                'title' => '<i class="icon-st"></i>最新评论',
+                'title' => '<i class="icon-st"></i>Последние комментарии',
                 'maxComments' => 5,
             ]) ?>
 
             <?= Links::widget([
-                'title' => '<i class="icon-st"></i>友情链接',
+                'title' => '<i class="icon-st"></i>Ссылки',
                 'links' => Yii::$app->params['blogLinks'],
             ]) ?>
 
             <?= SiteStat::widget([
-                'title' => '<i class="icon-st"></i>网站统计',
+                'title' => '<i class="icon-st"></i>Статистика сайта',
             ]) ?>
         </div>
     </div>
