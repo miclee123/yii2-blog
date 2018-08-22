@@ -3,11 +3,11 @@
 use yii\helpers\Html;
 use yii\grid\GridView;
 use yii\helpers\ArrayHelper;
-use funson86\blog\models\BlogCatalog;
-use funson86\blog\Module;
+use miclee123\blog\models\BlogCatalog;
+use miclee123\blog\Module;
 
 /* @var $this yii\web\View */
-/* @var $searchModel funson86\blog\models\BlogCatalogSearch */
+/* @var $searchModel miclee123\blog\models\BlogCatalogSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Module::t('blog', 'Blog Catalogs');
@@ -42,7 +42,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <td><?= $item['sort_order']; ?></td>
             <td><?= $item['template']; ?></td>
             <td><?= BlogCatalog::getOneIsNavLabel($item['is_nav']); ?></td>
-            <td><?= \funson86\blog\models\Status::labels()[$item['status']]; ?></td>
+            <td><?= \miclee123\blog\models\Status::labels()[$item['status']]; ?></td>
             <td>
                 <a href="<?= \Yii::$app->getUrlManager()->createUrl(['blog/blog-catalog/create','parent_id'=>$item['id']]); ?>" title="<?= Module::t('blog', 'Add Sub Catelog');?>" data-pjax="0"><span class="glyphicon glyphicon-plus-sign"></span></a>
                 <a href="<?= \Yii::$app->getUrlManager()->createUrl(['blog/blog-catalog/view','id'=>$item['id']]); ?>"" title="<?= Module::t('blog', 'View');?>" data-pjax="0"><span class="glyphicon glyphicon-eye-open"></span></a>

@@ -1,15 +1,15 @@
 <?php
 
-namespace funson86\blog\controllers\frontend;
+namespace miclee123\blog\controllers\frontend;
 
 use Yii;
 use yii\data\Pagination;
 use yii\web\Controller;
-use funson86\blog\models\BlogCatalog;
-use funson86\blog\models\BlogPost;
-use funson86\blog\models\BlogComment;
-use funson86\blog\models\Status;
-use funson86\blog\models\BlogTag;
+use miclee123\blog\models\BlogCatalog;
+use miclee123\blog\models\BlogPost;
+use miclee123\blog\models\BlogComment;
+use miclee123\blog\models\Status;
+use miclee123\blog\models\BlogTag;
 use yii\widgets\ActiveForm;
 
 class DefaultController extends Controller

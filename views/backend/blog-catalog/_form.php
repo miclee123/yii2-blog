@@ -3,11 +3,11 @@
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use yii\helpers\ArrayHelper;
-use \funson86\blog\models\BlogCatalog;
-use funson86\blog\Module;
+use \miclee123\blog\models\BlogCatalog;
+use miclee123\blog\Module;
 
 /* @var $this yii\web\View */
-/* @var $model funson86\blog\models\BlogCatalog */
+/* @var $model miclee123\blog\models\BlogCatalog */
 /* @var $form yii\widgets\ActiveForm */
 
 //fix the issue that it can assign itself as parent
@@ -44,7 +44,7 @@ unset($parentCatalog[$model->id]);
 
     <?= $form->field($model, 'redirect_url')->textInput(['maxlength' => 255]) ?>
 
-    <?= $form->field($model, 'status')->dropDownList(\funson86\blog\models\Status::labels()) ?>
+    <?= $form->field($model, 'status')->dropDownList(\miclee123\blog\models\Status::labels()) ?>
 
     <div class="form-group">
         <label class="col-lg-2 control-label" for="">&nbsp;</label>

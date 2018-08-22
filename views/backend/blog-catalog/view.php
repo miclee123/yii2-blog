@@ -2,10 +2,10 @@
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
-use funson86\blog\Module;
+use miclee123\blog\Module;
 
 /* @var $this yii\web\View */
-/* @var $model funson86\blog\models\BlogCatalog */
+/* @var $model miclee123\blog\models\BlogCatalog */
 
 $this->title = $model->title;
 $this->params['breadcrumbs'][] = ['label' => Module::t('blog', 'Blog Catalogs'), 'url' => ['index']];

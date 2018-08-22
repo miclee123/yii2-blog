@@ -1,10 +1,10 @@
 <?php
 
-namespace funson86\blog\controllers\backend;
+namespace miclee123\blog\controllers\backend;
 
 use Yii;
-use funson86\blog\models\BlogComment;
-use funson86\blog\models\BlogCommentSearch;
+use miclee123\blog\models\BlogComment;
+use miclee123\blog\models\BlogCommentSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

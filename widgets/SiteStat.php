@@ -1,5 +1,5 @@
 <?php
-namespace funson86\blog\widgets;
+namespace miclee123\blog\widgets;
 
 use yii\base\Widget;
 use yii\db\Query;

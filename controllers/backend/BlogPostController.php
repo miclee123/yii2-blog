@@ -1,11 +1,11 @@
 <?php
 
-namespace funson86\blog\controllers\backend;
+namespace miclee123\blog\controllers\backend;
 
-use funson86\blog\models\Status;
+use miclee123\blog\models\Status;
 use Yii;
-use funson86\blog\models\BlogPost;
-use funson86\blog\models\BlogPostSearch;
+use miclee123\blog\models\BlogPost;
+use miclee123\blog\models\BlogPostSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

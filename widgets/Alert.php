@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace funson86\blog\widgets;
+namespace miclee123\blog\widgets;
 
 /**
  * Alert widget renders a message from session flash. All flash messages are displayed
